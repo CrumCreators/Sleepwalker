@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "sleepwalker",
+  "version": "${version}",
+  "name": "Sleep Walker",
+  "description": "I swear, these mods just wander in here",
+  "authors": [
+    "QPCrummer"
+  ],
+  "license": "GPL-3.0",
+  "icon": "assets/lustrousness/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.CrumCreators.sleepwalker.Main"
+    ]
+  },
+  "mixins": [
+    "sleepwalker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  }
+}
